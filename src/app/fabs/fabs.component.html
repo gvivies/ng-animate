@@ -1,0 +1,39 @@
+<section class="red-fab">
+    <label class="title" (click)="clickOnRed()">Red</label>
+</section>
+<section [@redFabState]="redState" class="red-fab-double">
+    <section [@headerState]="redState" class="header-panel">
+        <nav *ngIf="showRed === 'active'" (click)="clickOnRed()" class="close">
+            <</nav>
+    </section>
+    <p [@showParagraph]="showRed" class="paragraph">
+        Emensis itaque difficultatibus multis et nive obrutis callibus plurimis ubi prope Rauracum ventum est ad supercilia fluminis Rheni, resistente multitudine Alamanna pontem suspendere navium conpage Romani vi nimia vetabantur ritu grandinis undique convolantibus
+        telis, et cum id inpossibile videretur, imperator cogitationibus magnis attonitus, quid capesseret ambigebat.
+    </p>
+</section>
+<section class="green-fab">
+    <label class="title" (click)="clickOnGreen()">Green</label>
+</section>
+<section [@greenFabState]="greenState" class="green-fab-double">
+    <section [@headerState]="greenState" class="header-panel">
+        <nav *ngIf="showGreen === 'active'" (click)="clickOnGreen()" class="close">
+            <</nav>
+    </section>
+    <p [@showParagraph]="showGreen" class="paragraph">
+        Emensis itaque difficultatibus multis et nive obrutis callibus plurimis ubi prope Rauracum ventum est ad supercilia fluminis Rheni, resistente multitudine Alamanna pontem suspendere navium conpage Romani vi nimia vetabantur ritu grandinis undique convolantibus
+        telis, et cum id inpossibile videretur, imperator cogitationibus magnis attonitus, quid capesseret ambigebat.
+    </p>
+</section>
+<section class="blue-fab">
+    <label class="title" (click)="clickOnBlue()">Blue</label>
+</section>
+<section [@blueFabState]="blueState" class="blue-fab-double">
+    <section [@headerState]="blueState" class="header-panel">
+        <nav *ngIf="showBlue === 'active'" (click)="clickOnBlue()" class="close">
+            <</nav>
+    </section>
+    <p [@showParagraph]="showBlue" class="paragraph">
+        Emensis itaque difficultatibus multis et nive obrutis callibus plurimis ubi prope Rauracum ventum est ad supercilia fluminis Rheni, resistente multitudine Alamanna pontem suspendere navium conpage Romani vi nimia vetabantur ritu grandinis undique convolantibus
+        telis, et cum id inpossibile videretur, imperator cogitationibus magnis attonitus, quid capesseret ambigebat.
+    </p>
+</section>

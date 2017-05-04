@@ -1,0 +1,115 @@
+.command-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    width: 100%;
+}
+
+button {
+    font-weight: bold;
+    cursor: pointer;
+    height: 38px;
+    margin-right: 8px;
+    width: 118px;
+}
+
+.red-fab,
+.green-fab,
+.blue-fab,
+.red-fab-double,
+.green-fab-double,
+.blue-fab-double {
+    border-radius: 30px;
+    left: 0px;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    position: relative;
+    width: 60px;
+}
+
+.red-fab,
+.green-fab,
+.blue-fab {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 9;
+}
+
+.red-fab-double,
+.green-fab-double,
+.blue-fab-double {
+    margin-top: -86px;
+    margin-left: -0px;
+    z-index: 6;
+}
+
+.red-fab,
+.green-fab,
+.blue-fab,
+.red-fab-double,
+.green-fab-double,
+.blue-fab-double {
+    height: 60px;
+}
+
+.grey-fab {
+    height: 160px;
+}
+
+.red-fab,
+.red-fab-double {
+    background-color: red;
+    border: 1px solid red;
+}
+
+.green-fab,
+.green-fab-double {
+    background-color: green;
+    border: 1px solid green;
+}
+
+.blue-fab,
+.blue-fab-double {
+    background-color: blue;
+    border: 1px solid blue;
+}
+
+.grey-fab {
+    background-color: grey;
+}
+
+.header-panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title {
+    color: #fff;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 8px;
+}
+
+.close {
+    align-self: flex-end;
+    color: #fff;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    padding-right: 8px;
+}
+
+.paragraph {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    opacity: 0;
+    padding: 8px;
+}

@@ -1,0 +1,11 @@
+<header>
+    <label class="title">Animation demo :</label>
+</header>
+<nav class="command-bar">
+    <label class="link {{(squaresVisible) ? 'selected' : ''}}" (click)="showSquares()">Squares nav concept</label>
+    <label class="link {{(fabsVisible) ? 'selected' : ''}}" (click)="showFabs()">Fabs nav concept</label>
+</nav>
+<section class="content">
+    <app-squares *ngIf="squaresVisible"></app-squares>
+    <app-fabs *ngIf="fabsVisible"></app-fabs>
+</section>

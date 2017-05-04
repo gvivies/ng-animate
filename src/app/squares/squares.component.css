@@ -1,0 +1,86 @@
+.command-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    width: 100%;
+}
+
+button {
+    font-weight: bold;
+    cursor: pointer;
+    height: 38px;
+    margin-right: 8px;
+    width: 118px;
+}
+
+.red-square,
+.green-square,
+.blue-square,
+.grey-square {
+    border: 1px solid #c2c2c2;
+    left: 0px;
+    width: 120px;
+    position: relative;
+}
+
+.red-square,
+.green-square,
+.blue-square {
+    height: 80px;
+}
+
+.grey-square {
+    height: 160px;
+}
+
+.red-square {
+    background-color: red;
+}
+
+.green-square {
+    background-color: green;
+}
+
+.blue-square {
+    background-color: blue;
+}
+
+.grey-square {
+    background-color: grey;
+}
+
+.header-panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title {
+    color: #fff;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 8px;
+    padding-top: 8px;
+}
+
+.close {
+    align-self: flex-end;
+    color: #fff;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding-right: 8px;
+}
+
+.paragraph {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    opacity: 0;
+    padding: 8px;
+}

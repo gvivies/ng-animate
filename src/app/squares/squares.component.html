@@ -1,0 +1,32 @@
+<section [@redSquareState]="redState" class="red-square">
+    <section class="header-panel">
+        <label class="title" (click)="clickOnRed()">Red nav</label>
+        <nav *ngIf="showRed === 'active'" (click)="clickOnRed()" class="close">X</nav>
+    </section>
+    <p [@showParagraph]="showRed" class="paragraph">
+        Emensis itaque difficultatibus multis et nive obrutis callibus plurimis ubi prope Rauracum ventum est ad supercilia fluminis Rheni, resistente multitudine Alamanna pontem suspendere navium conpage Romani vi nimia vetabantur ritu grandinis undique convolantibus
+        telis, et cum id inpossibile videretur, imperator cogitationibus magnis attonitus, quid capesseret ambigebat.
+    </p>
+</section>
+<section [@greenSquareState]="greenState" class="green-square">
+    <section class="header-panel">
+        <label class="title" (click)="clickOnGreen()">Green nav</label>
+        <nav *ngIf="showGreen === 'active'" (click)="clickOnGreen()" class="close">X</nav>
+    </section>
+    <p [@showParagraph]="showGreen" class="paragraph">
+        Emensis itaque difficultatibus multis et nive obrutis callibus plurimis ubi prope Rauracum ventum est ad supercilia fluminis Rheni, resistente multitudine Alamanna pontem suspendere navium conpage Romani vi nimia vetabantur ritu grandinis undique convolantibus
+        telis, et cum id inpossibile videretur, imperator cogitationibus magnis attonitus, quid capesseret ambigebat.
+    </p>
+</section>
+<section [@blueSquareState]="blueState" class="blue-square">
+    <section class="header-panel">
+        <label class="title" (click)="clickOnBlue()">Blue nav</label>
+        <nav *ngIf="showBlue === 'active'" (click)="clickOnBlue()" class="close">X</nav>
+    </section>
+    <p [@showParagraph]="showBlue" class="paragraph">
+        Emensis itaque difficultatibus multis et nive obrutis callibus plurimis ubi prope Rauracum ventum est ad supercilia fluminis Rheni, resistente multitudine Alamanna pontem suspendere navium conpage Romani vi nimia vetabantur ritu grandinis undique convolantibus
+        telis, et cum id inpossibile videretur, imperator cogitationibus magnis attonitus, quid capesseret ambigebat.
+    </p>
+</section>
+<section [@greySquareState]="greyState" class="grey-square">
+</section>

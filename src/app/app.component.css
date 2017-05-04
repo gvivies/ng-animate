@@ -1,0 +1,49 @@
+html,
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+    width: 96%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+header .title {
+    display: block;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-right: 48px;
+    margin-top: 2px;
+    font-weight: bold;
+}
+
+nav {
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.link {
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    padding-bottom: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 8px;
+}
+
+.link:hover {
+    color: #ff5800;
+}
+
+.selected {
+    background-color: #000;
+    color: white;
+}
