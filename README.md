@@ -9,3 +9,5 @@ This project is a set of experiments with Angular animations
 ## Fabs menu concept
 
 Nav based on Fab buttons
+
+![Image of animation demo](/animation.gif)

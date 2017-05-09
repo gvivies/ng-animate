@@ -47,3 +47,9 @@ nav {
     background-color: #000;
     color: white;
 }
+
+app-squares,
+app-fabs {
+    display: block;
+    overflow: hidden;
+}

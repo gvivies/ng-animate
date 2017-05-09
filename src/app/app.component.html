@@ -6,6 +6,6 @@
     <label class="link {{(fabsVisible) ? 'selected' : ''}}" (click)="showFabs()">Fabs nav concept</label>
 </nav>
 <section class="content">
-    <app-squares *ngIf="squaresVisible"></app-squares>
-    <app-fabs *ngIf="fabsVisible"></app-fabs>
+    <app-squares [@showSquares]="displaySquares"></app-squares>
+    <app-fabs [@showFabs]="displayFabs"></app-fabs>
 </section>
